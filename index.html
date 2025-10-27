@@ -461,10 +461,31 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-sign">
+          <p class="footer-sign-text">Subscribe</p>
+          <form class="sign-form">
+            <label class="sign-label">
+              <input
+                class="sign-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                placeholder="Email"
+              />
+            </label>
+            <button class="sign-button" type="submit">
+              Subscribe
+              <svg class="sign-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="close-icon" width="8" height="8">
@@ -524,6 +545,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
+
           <div class="form-agreement">
             <input
               class="visually-hidden checkbox-input"
