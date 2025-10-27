@@ -757,11 +757,10 @@ fill: transparent;
 .checkbox-input:checked + .checkbox-label .checkbox-span {
     background-color: var(--ocean);
         border: none;
+        fill: var(--clode);
     
 }
-.checkbox-input:checked + .checkbox-label .checkbox-span .checkbox-icon {
-    fill: var(--clode);
-}
+
 
 .checkbox-label {
     font-size: 12px;
